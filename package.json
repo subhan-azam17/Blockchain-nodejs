@@ -1,0 +1,22 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "networknode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node_1": "nodemon networkNode.js 1917 http://localhost:1917",
+    "node_2": "nodemon networkNode.js 1918 http://localhost:1918",
+    "node_3": "nodemon networkNode.js 1919 http://localhost:1919"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "github": "^14.0.0",
+    "nodemon": "^2.0.7",
+    "sha256": "^0.2.0",
+    "uuid": "^8.3.2"
+  }
+}
